@@ -10,7 +10,7 @@ pub struct Blog {
 }
 
 impl Blog {
-    pub  fn new(title: String, content: String, tags: Vec<String>) -> Self {
+    pub fn new(title: String, content: String, tags: Vec<String>) -> Self {
         Self {
             title,
             date: time(),

@@ -6,9 +6,9 @@ type Blog = record {
 };
 
 type Result = variant { 
-    Ok : text; 
+    Ok : Blog; 
     Err : text; 
-    };
+};
 
 service : {
     "greet": (text) -> (text) query;
